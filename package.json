@@ -1,0 +1,31 @@
+{
+  "name": "wdio-appium-browserstack",
+  "version": "1.0.0",
+  "description": "This is a POC for appium using wdio test framework and will be run in browserstack.",
+  "main": "index.js",
+  "scripts": {
+    "test:appium": "wdio wdio.conf.js",
+    "bs:local": "wdio local.conf.js"
+  },
+  "keywords": [
+    "appium",
+    "wdio",
+    "selenium",
+    "browserstack"
+  ],
+  "author": "Christopher Lim <toffer.lim87@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.16.10",
+    "browserstack-local": "^1.4.8",
+    "chai": "^4.3.4",
+    "webdriverio": "^7.16.10"
+  },
+  "devDependencies": {
+    "@testing-library/webdriverio": "^3.0.5",
+    "@wdio/local-runner": "^7.16.10",
+    "@wdio/mocha-framework": "^7.16.6",
+    "@wdio/selenium-standalone-service": "^7.16.6",
+    "@wdio/spec-reporter": "^7.16.9"
+  }
+}
