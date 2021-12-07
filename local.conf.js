@@ -12,7 +12,6 @@ exports.config = {
     project: "Wdio Appium Browserstack",
     build: 'Webdriverio Android',
     name: 'Login Test',
-    platformName: 'Android',
     device: 'Google Pixel 3',
     os_version: "9.0",
     app: process.env.BROWSERSTACK_APP_ID,
