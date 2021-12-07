@@ -4,7 +4,8 @@
   "description": "This is a POC for appium using wdio test framework and will be run in browserstack.",
   "main": "index.js",
   "scripts": {
-    "test:local": "wdio local.conf.js"
+    "test:local": "wdio local.conf.js",
+    "test:parallel": "wdio parallel.conf.js"
   },
   "keywords": [
     "appium",
